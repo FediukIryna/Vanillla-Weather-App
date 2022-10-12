@@ -14,16 +14,12 @@
         <div class="weather-app-wrapper">
         <div class="weather-app">
             <div class="overview">
-        <h1>
-            New York, USA
-        </h1>
+        <h1 id="city"></h1>
         <ul>
             <li>
                 Wednesday 14:00
             </li>
-            <li>
-                Partly cloudy
-            </li>
+            <li id="description"></li>
         </ul>
         </div>
         <div class="row">
@@ -32,7 +28,7 @@
                 <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                 class="float-left">
                 <div class="float-left">
-                <strong>20</strong><small class="units">°C|
+                <strong id="temperature"></strong><small class="units">°C|
                 <a class="none" href="#">°F</a>
                 </small>
             </div>
@@ -41,13 +37,10 @@
            <div class="col-6">
           <ul>
             <li>
-            Precipitation: 0%
-             </li>
-            <li>
-            Humidity: 49%
+            Humidity:<span id="humidity"></span>%
             </li>
              <li>
-            Wind: 13 km/h
+            Wind:<span id="wind"></span> km/h
              </li>
            </ul>
           </div>
