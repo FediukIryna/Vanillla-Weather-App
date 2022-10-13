@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    color:#7e7a7a; ;
+    color:#555454; ;
     font-size: 24px;
     font-weight: 100;
     text-align: left;
@@ -17,7 +17,7 @@ li{
     list-style: none;
     margin: 0;
     padding: 0;
-    color: rgb(135, 135, 135);
+    color: rgb(87, 85, 85);
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
