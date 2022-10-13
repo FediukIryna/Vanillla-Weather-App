@@ -36,6 +36,9 @@ li:first-letter{
 }
 .none{
     text-decoration: none;
+    color: black;
+    cursor: default;
+    
 }
 .overview{
     margin-bottom: 20px;
